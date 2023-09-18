@@ -4,6 +4,8 @@
 # libminer
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/anacarlac/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/anacarlac/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of of libminer is to provide an overview of your R library
@@ -31,7 +33,7 @@ lib_summary()
 #>                                                                 Library
 #> 1                                    C:/Program Files/R/R-4.3.1/library
 #> 2                        C:/Users/anaca/AppData/Local/R/win-library/4.3
-#> 3 C:/Users/anaca/AppData/Local/Temp/RtmpUvP7EY/temp_libpath3d307e4e1f8e
+#> 3 C:/Users/anaca/AppData/Local/Temp/RtmpUvP7EY/temp_libpath3d301b147034
 #>   n_packages
 #> 1         30
 #> 2        280
@@ -43,11 +45,11 @@ lib_summary(sizes = TRUE)
 #>                                                                 Library
 #> 1                                    C:/Program Files/R/R-4.3.1/library
 #> 2                        C:/Users/anaca/AppData/Local/R/win-library/4.3
-#> 3 C:/Users/anaca/AppData/Local/Temp/RtmpUvP7EY/temp_libpath3d307e4e1f8e
+#> 3 C:/Users/anaca/AppData/Local/Temp/RtmpUvP7EY/temp_libpath3d301b147034
 #>   n_packages  lib_size
 #> 1         30  68858812
 #> 2        280 504083321
-#> 3          1     13474
+#> 3          1     17219
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`?
