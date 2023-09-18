@@ -1,4 +1,14 @@
-# create function lib_summary to install packages and get a list of packages that are installed in the system and in the user system
+#' R Library Summary
+#'
+#'Provides a brief summary of the package libraries on
+#'your machine
+#'
+#' @return A 'data.frame' containing the count of packages in each
+#'         of the user's libraries.
+#' @export
+#'
+#' @examples
+#' lib_summary()
 lib_summary <- function() {
   pkgs <- utils::installed.packages() # get the packages
   pkg_tbl <- table(pkgs[, "LibPath"]) # get the table with packages
